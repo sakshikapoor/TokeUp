@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="timer" sid="1075134029635024" static="0" type="number">7</variable>
+        <variable constant="0" name="num" sid="3519463918304949" static="0" type="number">1</variable>
+        <event-block sid="7310290375943433">
+            <conditions>
+                <condition id="-4" name="Trigger once while true" sid="5839409827617761" type="System" />
+                <condition id="-14" name="Compare variable" sid="2534503456061679" type="System">
+                    <param id="0" name="Variable">num</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="7342825915153242" type="Audio">
+                    <param id="0" name="Audio file">Bob_Marley_Ganja_Gun_mp3goo</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8074233595234586">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="7352432063031315" type="Touch">
+                    <param id="0" name="Object">Sprite4</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="486265004583928" type="Sprite4">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="6840701275167058" type="Sprite4">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">0.01</param>
+                </action>
+                <action id="9" name="Set scale" sid="6845660846769272" type="Sprite4">
+                    <param id="0" name="Scale">Sprite4.scale</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="2092970899518954">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4071762720636098" type="Sprite4">
+                            <param id="0" name="Instance variable">scale</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">0.55</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="7034917086874559" type="Sprite4">
+                            <param id="0" name="Instance variable">grow</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4266075043022848">
+            <conditions>
+                <condition id="2" inverted="1" name="Is in touch" sid="2436969555880746" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="1643342952953783" type="Sprite4">
+                    <param id="0" name="Scale">0.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1463260827453582">
+            <conditions>
+                <condition id="3" name="On touched object" sid="5232062610784317" type="Touch">
+                    <param id="0" name="Object">Sprite4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="268194187906514" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-10" name="Add to" sid="7560537345000742" type="System">
+                    <param id="0" name="Variable">num</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="4712617908787712" type="System">
+                    <param id="0" name="Layout">Layout 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9102785548207319">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="4375032981183457" type="Touch">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="110261496772352" type="Sprite6">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="8014197618388327" type="Sprite6">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">0.005</param>
+                </action>
+                <action id="9" name="Set scale" sid="1885324544416243" type="Sprite6">
+                    <param id="0" name="Scale">Sprite6.scale</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="3774975800775931">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="8989527700337728" type="Sprite6">
+                            <param id="0" name="Instance variable">scale</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">0.55</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="3204525071909535" type="Sprite6">
+                            <param id="0" name="Instance variable">grow</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4001887547745916">
+            <conditions>
+                <condition id="2" inverted="1" name="Is in touch" sid="6774304487973495" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="3823238418195304" type="Sprite6">
+                    <param id="0" name="Scale">0.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7182364637819174">
+            <conditions>
+                <condition id="3" name="On touched object" sid="7846544311446126" type="Touch">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="3449425907239282" type="timertext">
+                    <param id="0" name="Text">timer</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2947537308325325">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="4432548723391687" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="9110337725285162" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="5712066122856585" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="5295135563394764" type="timertext">
+                    <param id="0" name="Text">timer</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="774401645973814">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="599857060915672" type="System">
+                            <param id="0" name="Variable">timer</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2217240890115529" type="timertext">
+                            <param id="0" name="Text">&quot;You Lose&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="9252140181115274" type="System">
+                            <param id="0" name="Seconds">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="9735822679250166" type="System">
+                            <param id="0" name="Layout">Layout 3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="8661058299829778">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4874485887897025" type="System" />
+            </conditions>
+            <actions>
+                <action id="2" name="Set at X" sid="9554565826120901" type="Array">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Value">&quot;Close your eyes and send a blind text to a random person&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="6491921098056863" type="Array">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Value">&quot;get punched or kissed in the face your choice&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="12916965596833" type="Array">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Value">&quot;Twerk&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="741868042532761" type="Array">
+                    <param id="0" name="X">3</param>
+                    <param id="1" name="Value">&quot;Lick the wall&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="3989996835516986" type="Array">
+                    <param id="0" name="X">4</param>
+                    <param id="1" name="Value">&quot;Break dance&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="438730221062596" type="Array">
+                    <param id="0" name="X">5</param>
+                    <param id="1" name="Value">&quot;Do 5 pushups&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="939307441755731" type="Array">
+                    <param id="0" name="X">6</param>
+                    <param id="1" name="Value">&quot;Act like the family dog until it is your turn again&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="7496631985123834" type="Array">
+                    <param id="0" name="X">7</param>
+                    <param id="1" name="Value">&quot;Sing “Twinkle Twinkle, Little Star” while beat boxing&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="8009747923510266" type="Array">
+                    <param id="0" name="X">8</param>
+                    <param id="1" name="Value">&quot;Stand on one leg with both hands up till the next round&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="1036712026350658" type="Daretext">
+                    <param id="0" name="Text">Array.At(round(random(0,8)))</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1443521871264404">
+            <conditions>
+                <condition id="17" name="On tap object" sid="7429851996778351" type="Touch">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="6543994205181162" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Value">7</param>
+                </action>
+                <action id="0" name="Set text" sid="4706468802205626" type="timertext">
+                    <param id="0" name="Text">timer</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="6602679678398302" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="1631247733797754">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="2326912312919272" type="Touch">
+                    <param id="0" name="Object">Sprite8</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="1575638663443986" type="Sprite8">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="7196331098745824" type="Sprite8">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">0.01</param>
+                </action>
+                <action id="9" name="Set scale" sid="6160059421898827" type="Sprite8">
+                    <param id="0" name="Scale">Sprite8.scale</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="6799487548363084">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7027277565890065" type="Sprite8">
+                            <param id="0" name="Instance variable">scale</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">0.55</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="8942886641925747" type="Sprite8">
+                            <param id="0" name="Instance variable">grow</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="3318484974038632">
+            <conditions>
+                <condition id="2" inverted="1" name="Is in touch" sid="5461261875628604" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="9140170590120055" type="Sprite8">
+                    <param id="0" name="Scale">0.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="232870311799716">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4141587178056777" type="Touch">
+                    <param id="0" name="Object">Sprite8</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="6104782907318828" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="366633428688444" type="System">
+                    <param id="0" name="Layout">Layout 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1943094631326351">
+            <conditions>
+                <condition id="17" name="On tap object" sid="9965496342826901" type="Touch">
+                    <param id="0" name="Object">close</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="6633223614196961" type="System">
+                    <param id="0" name="Seconds">0.25</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="1822594121263856" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>stoner games</name>
+    <description>my first game</description>
+    <version>1.0.0.0</version>
+    <author>awkwardmavericks</author>
+    <author-email>sakshi.kapoor97@gmail.com</author-email>
+    <author-website>http://sadisticturtle.com</author-website>
+    <app-id>1</app-id>
+    <unique-id>2ar6aw2m24vz1</unique-id>
+    <saved-with-version>21600</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox integer scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Sprite2" sid="7038525972074981">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8803353848303658" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sakshi\Desktop\marijuana-blunt.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="upText" sid="5112367384276422">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text2" sid="8938086205269873">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite4" sid="8364411068859576">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="grow" sid="8321842861641379" type="number" />
+                <instance-variable name="scale" sid="271682152889393" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6797315187193171" speed="5">
+                    <frame duration="1" hotspotX="0.501401" hotspotY="0.498576" original-source="C:\Users\Sakshi\Desktop\section_video_button.png">
+                        <collision-poly>
+                            <point x="0.851658" y="0.849358" />
+                            <point x="0.5" y="0.999114" />
+                            <point x="0.148778" y="0.848915" />
+                            <point x="0.00828969" y="0.500221" />
+                            <point x="0.148342" y="0.150642" />
+                            <point x="0.5" y="0" />
+                            <point x="0.852094" y="0.150199" />
+                            <point x="0.992147" y="0.500221" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="8639216359340714">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Touch" sid="141349021662754">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="TextBox" sid="7918448476978443">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Button" sid="7237355721327959">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Sprite" sid="9255235801170832">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4620701543953993" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501235" original-source="C:\Users\Sakshi\Desktop\7X5ft-free-shipping-Thin-vinyl-fabric-computer-Printed-font-b-photography-b-font-font-b-background.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="4963415174292379">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3431263098100584" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sakshi\Desktop\370797.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="8802743563975081">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3750589128921087" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sakshi\Desktop\weedplant-482554.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="1076746533082333">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite6" sid="5995924025023184">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="grow" sid="9551857358272466" type="number" />
+                <instance-variable name="scale" sid="4006407185540317" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1767250954525838" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sakshi\Desktop\018991-glossy-waxed-wood-icon-symbols-shapes-shapes-circle.png">
+                        <collision-poly>
+                            <point x="0.214844" y="0.214844" />
+                            <point x="0.5" y="0.0957031" />
+                            <point x="0.787109" y="0.212891" />
+                            <point x="0.90625" y="0.5" />
+                            <point x="0.787109" y="0.787109" />
+                            <point x="0.5" y="0.902344" />
+                            <point x="0.216797" y="0.783203" />
+                            <point x="0.0996094" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="timertext" sid="4795260622589579">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite7" sid="8386837836256064">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2890469082514082" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sakshi\Desktop\marijuana_weed_420_drugs_3200x1680.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text3" sid="4594602663583668">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite8" sid="54044174297729">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="grow" sid="3059526080529025" type="number" />
+                <instance-variable name="scale" sid="8497041366627736" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4304695090259854" speed="5">
+                    <frame duration="1" hotspotX="0.501401" hotspotY="0.501424" original-source="C:\Users\Sakshi\Desktop\back+button.png">
+                        <collision-poly>
+                            <point x="0.162465" y="0.165242" />
+                            <point x="0.498599" y="0.017094" />
+                            <point x="0.840336" y="0.162393" />
+                            <point x="0.97479" y="0.498576" />
+                            <point x="0.837535" y="0.834758" />
+                            <point x="0.498599" y="0.977208" />
+                            <point x="0.165266" y="0.831909" />
+                            <point x="0.0308123" y="0.498576" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="Array" sid="9395636667065754">
+            <plugin id="Arr" />
+            <instance-variables>
+                <instance-variable name="two" sid="1278800581569787" type="string" />
+                <instance-variable name="three" sid="7495013005644092" type="string" />
+                <instance-variable name="four" sid="9504856246683464" type="string" />
+                <instance-variable name="five" sid="7851929792710964" type="string" />
+                <instance-variable name="six" sid="9569596666148718" type="string" />
+                <instance-variable name="seven" sid="4266149084422378" type="string" />
+                <instance-variable name="eight" sid="1123018855454512" type="string" />
+                <instance-variable name="nine" sid="8011411512464248" type="string" />
+                <instance-variable name="ten" sid="7018718307821766" type="string" />
+            </instance-variables>
+        </object-type>
+        <object-type name="Daretext" sid="1678136446324358">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="close" sid="2661451010913259">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2887497015174886" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sakshi\Desktop\close-icon.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="7585394069869251">
+            <plugin id="Audio" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+        <layout>Layout 2.xml</layout>
+        <layout>Layout 3.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="4" />
+        <global-instance type="Touch" uid="5">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="16">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder>
+        <file name="Bob_Marley_Ganja_Gun_mp3goo.ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
